@@ -90,11 +90,10 @@ section {
     background-color: #4288C3;
 }
 section #partners {  
-    width: 1200px;
+    /* width: 1200px; */
     padding: 2em 0 2em 0;
     margin: 0 auto;
     text-align: center;
-    display: grid;
 }
 section #partners .partner {
     display: inline-block;
@@ -167,42 +166,19 @@ footer #nondisclaimer .social .fa-instagram {
 /* ACTIVATE BELOW WHEN TESTING NAVIGATION AND OTHERS FOR RWD */
 
 /* Media Queries */
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
     #partners{
         grid-template-columns: repeat(2, 1fr);
     }
 }
 @media (min-width: 768px) {
-
     #partners{
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (min-width: 992px) {
-    /* .logo img {
-        position: relative;
-        bottom: 8px;
-    }
-    .main-menu {
-        width: 200px;
-        background-color:rgb(255, 255, 255);
-        position: absolute;
-        right: 1.7em;
-    }
-    .main-menu ul li {
-        border-bottom: 1px solid rgba(202, 204, 202, 0.6);
-    }
-    main {
-        padding: 3em 1em 3em 1em;
-        margin: 0;
-    }
-    #home .main-col-content {
-        padding: 25px;
-        min-height: 450px;
-        margin-top: 1em;
-    } */
     #partners{
         grid-template-columns: repeat(6, 1fr);
     }
-}
+} */
